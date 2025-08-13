@@ -23,3 +23,28 @@
     border: none;
     outline: none;
 }
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;   
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.profile_card{
+    width: 24%;
+}
+
+.profile_card img{
+    width: 100%;
+}
+
+.profile_card a{
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.profile_card a:hover{
+    color: rgb(231, 223, 223);
+}

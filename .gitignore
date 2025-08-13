@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Parcel cache
+.parcel-cache/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Optional: lock files (if you want to exclude them, though it's usually best to commit one)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
